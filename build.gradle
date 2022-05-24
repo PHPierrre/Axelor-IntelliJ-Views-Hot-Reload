@@ -1,0 +1,15 @@
+apply plugin: 'com.axelor.app-module'
+apply {
+    version = "1.0.0"
+}
+
+axelor {
+    title = "IntelliJ Views Hot Reload"
+    removable = true
+}
+
+dependencies {
+    testCompile("junit:junit:4.12")
+}
+
+

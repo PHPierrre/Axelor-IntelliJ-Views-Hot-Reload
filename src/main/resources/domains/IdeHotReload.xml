@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<domain-models xmlns="http://axelor.com/xml/ns/domain-models"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://axelor.com/xml/ns/domain-models
+  http://axelor.com/xml/ns/domain-models/domain-models_5.1.xsd">
+
+    <module name="intellij-views-hot-reload" package="fr.phpierre.axelor.intellij.hotreload"/>
+    <entity name="IdeHotReload" persistable="false">
+        <one-to-many name="views" ref="fr.phpierre.axelor.intellij.hotreload.IdeHotReloadView" title="Views" />
+    </entity>
+
+</domain-models>
